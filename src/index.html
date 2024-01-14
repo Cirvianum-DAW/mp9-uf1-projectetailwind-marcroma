@@ -5,30 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marc Roma - About Me</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
       /* FONT IMPORTS */
       @import url("https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
     </style>
   </head>
-  <body class="mt-[16px] ml-[19px] mr-[30px]">
+  <body class="mt-[16px] ml-[19px] mr-[30px] font-inter">
     <!-- NAVBAR -->
     <div class="flex flex-row gap-10 text-xs font-glory">
-      <div>
-        01
-        <p class="font-inter font-bold">ABOUT ME</p>
-      </div>
-      <div>
-        02
-        <p class="font-inter font-bold">PROJECTS</p>
-      </div>
-      <div>
-        03
-        <p class="font-inter font-bold">CONTACT</p>
-      </div>
-      <div>
-        04
-        <p class="font-inter font-bold">LICENSING</p>
-      </div>
+      <a href="index.html">
+        <div>
+          01
+          <p class="font-inter font-bold">ABOUT ME</p>
+        </div>
+      </a>
+      
+      <a href="projects.html">
+        <div>
+          02
+          <p class="font-inter font-bold">PROJECTS</p>
+        </div>
+      </a>
+      
+      <a href="contact.html">
+        <div>
+          03
+          <p class="font-inter font-bold">CONTACT</p>
+        </div>
+      </a>
+      
+      <a href="licensing.html">
+        <div>
+          04
+          <p class="font-inter font-bold">LICENSING</p>
+        </div>
+      </a>
+      
     </div>
     <!--  -->
 
@@ -37,7 +50,7 @@
       <!-- HELLO & NAME -->
       <div class="font-glory leading-normal text-xl">
         hello! I'm
-        <h1 class="text-8xl font-inter font-extrabold">Marc</h1>
+        <h1 class="text-8xl font-extrabold font-inter">Marc</h1>
       </div>
       <!--  -->
 
@@ -47,7 +60,7 @@
           &lt;a <span class="text-[#899471]">web dev</span> student based in
           <span class="text-[#b9667d]">Spain</span> with a passion for
           <span class="text-[#799cac]">graphic design</span> &
-          <span class="text-[#ac906d]">coding</span> &gt;
+          <span class="text-[#ac906d]">coding.</span> &gt;
         </p>
         <!--  -->
       </div>
@@ -59,7 +72,7 @@
       class="mt-[50px] flex flex-row justify-between min-w-[177px] min-h-[125px] leading-[20px]"
     >
       <div
-        class="relative bg-[#b1b3e9] p-3 pb-10 pr-10 text-xl font-bold font-inter rounded-md min-w-6"
+        class="relative bg-[#b1b3e9] p-3 pb-10 pr-10 text-xl font-bold rounded-md min-w-6"
       >
         web <br />
         development
@@ -72,7 +85,7 @@
       </div>
 
       <div
-        class="relative bg-[#f68463] p-3 pb-10 pr-10 text-xl font-bold font-inter rounded-md min-w-6"
+        class="relative bg-[#f68463] p-3 pb-10 pr-10 text-xl font-bold rounded-md min-w-6"
       >
         graphic UI & <br />
         UX design
@@ -87,7 +100,7 @@
     <!--  -->
 
     <!-- FEATURED WORK -->
-    <div class="flex flex-row mt-[40px] font-inter font-bold align-middle">
+    <div class="flex flex-row mt-[40px] font-bold align-middle">
       <img class="max-h-[1em]" src="img/Star.png" alt="shooting-star" />
       <h1 class="pl-2">featured work</h1>
     </div>
@@ -108,7 +121,9 @@
     </div>
 
     <!-- BUTTON -->
-    <button class="rounded-md">a</button>
+    <div class="flex justify-center items-center mt-4">
+      <button href="" class="bg-black p-1 px-20 rounded-md"><span class="text-white font-bold text-xs">View All</span></button>
+    </div>
     <!--  -->
   </body>
 </html>
