@@ -54,12 +54,12 @@
       <!--  -->
 
       <!-- DESCRIPTION -->
-      <div class="mt-[15px] bg-[#f0f0f0] p-3 px-4 rounded-md">
-        <p class="text-xs">
+      <div class="mt-[15px] bg-[#f0f0f0] p-3 px-4 rounded-md sm:max-w-[800px]">
+        <p class="text-base font-jetbrains">
           &lt;a <span class="text-[#899471]">web dev</span> student based in
           <span class="text-[#b9667d]">Spain</span> with a passion for
           <span class="text-[#799cac]">graphic design</span> &
-          <span class="text-[#ac906d]">coding.</span> &gt;
+          <span class="text-[#ac906d]">coding.</span>&gt;
         </p>
         <!--  -->
       </div>
@@ -68,7 +68,7 @@
 
     <!-- SKILLS -->
     <div
-      class="mt-[50px] flex flex-row justify-between min-w-[177px] min-h-[125px] leading-[20px]"
+      class="mt-[50px] flex flex-row justify-between min-w-[177px] min-h-[125px] leading-[20px] sm:justify-start sm:gap-[50px] md:justify-start md:gap-[50px] md:min-w-[300px]"
     >
       <div
         class="relative bg-[#b1b3e9] p-3 pb-10 pr-10 text-xl font-bold rounded-md min-w-6"
@@ -99,13 +99,21 @@
     <!--  -->
 
     <!-- FEATURED WORK -->
-    <div class="flex flex-row mt-[40px] font-bold align-middle">
+    <div class="flex flex-row mt-[40px] font-bold align-middle sm:justify-start md:justify-start">
       <img class="max-h-[1em]" src="img/Star.png" alt="shooting-star" />
       <h1 class="pl-2">featured work</h1>
     </div>
 
     <!-- PROJECTS -->
     <div class="flex flex-row flex-wrap justify-between gap-[25px]">
+
+      
+      <a href="scribbble.html">
+        <div class="max-w-[177px]">
+          <img src="img/Scribbble.png" alt="project-thumbnail" />
+        </div>
+      </a>
+
       <a href="plantCare.html">
         <div class="max-w-[177px]">
           <img src="img/PlantCareThumbnail.png" alt="project-thumbnail" />
@@ -118,18 +126,13 @@
         </div>
       </a>
 
-      <a href="scribbble.html">
-        <div class="max-w-[177px]">
-          <img src="img/Scribbble.png" alt="project-thumbnail" />
-        </div>
-      </a>
     </div>
 
     <!-- BUTTON -->
     <div class="flex justify-center items-center mt-4">
-      <button href="" class="bg-black p-1 px-20 rounded-md">
+      <a href="projects.html" class="bg-black p-1 px-20 rounded-md">
         <span class="text-white font-bold text-xs">View All</span>
-      </button>
+      </a>
     </div>
     <!--  -->
   </body>
